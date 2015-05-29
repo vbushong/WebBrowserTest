@@ -1,0 +1,217 @@
+<data>
+  <MapImage>AerialWithLabels</MapImage>
+  <MapLocation>US</MapLocation>
+  <MapPins>
+  <PinData>
+    <PinType>One Team</PinType>
+    <PinLocation>Team Stadium/Arena</PinLocation>
+    <ZoomLevel>19</ZoomLevel>
+    <Sport>NFL</Sport>
+    <TeamName>Chicago Bears</TeamName>
+    <LatLong />
+    <TextLine />
+    <Head />
+    <HeadPath />
+    <HeadPathIMS />
+    <Logo1>BEARS</Logo1>
+    <LogoPath1>IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\BEARS_256.PNG</LogoPath1>
+    <LogoPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\BEARS_256.PNG</LogoPathIMS1>
+    <Swatch1>BEARS_SWATCH</Swatch1>
+    <SwatchPath1>IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\BEARS.PNG</SwatchPath1>
+    <SwatchPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\BEARS.PNG</SwatchPathIMS1>
+    <Logo2 />
+    <LogoPath2 />
+    <LogoPathIMS2 />
+    <Swatch2 />
+    <SwatchPath2 />
+    <SwatchPathIMS2 />
+    <PinContent>No Content</PinContent>
+    <Custom />
+    <CustomPath />
+    <CustomPathIMS />
+    <LoadingScreen />
+    <CustomScreen />
+    <CustomScreenPath />
+    <CustomScreenPathIMS />
+    <ScrubBar>true</ScrubBar>
+    <ClipData />
+    <ClipPath />
+  </PinData>
+  <PinData>
+    <PinType>One Team</PinType>
+    <PinLocation>Team Stadium/Arena</PinLocation>
+    <ZoomLevel>19</ZoomLevel>
+    <Sport>NFL</Sport>
+    <TeamName>Kansas City Chiefs</TeamName>
+    <LatLong />
+    <TextLine />
+    <Head />
+    <HeadPath />
+    <HeadPathIMS />
+    <Logo1>CHIEFS</Logo1>
+    <LogoPath1>IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\CHIEFS_256.PNG</LogoPath1>
+    <LogoPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\CHIEFS_256.PNG</LogoPathIMS1>
+    <Swatch1>CHIEFS_SWATCH</Swatch1>
+    <SwatchPath1>IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\CHIEFS.PNG</SwatchPath1>
+    <SwatchPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\CHIEFS.PNG</SwatchPathIMS1>
+    <Logo2 />
+    <LogoPath2 />
+    <LogoPathIMS2 />
+    <Swatch2 />
+    <SwatchPath2 />
+    <SwatchPathIMS2 />
+    <PinContent>No Content</PinContent>
+    <Custom />
+    <CustomPath />
+    <CustomPathIMS />
+    <LoadingScreen />
+    <CustomScreen />
+    <CustomScreenPath />
+    <CustomScreenPathIMS />
+    <ScrubBar>true</ScrubBar>
+    <ClipData />
+    <ClipPath />
+  </PinData>
+  <PinData>
+    <PinType>One Team</PinType>
+    <PinLocation>Team Stadium/Arena</PinLocation>
+    <ZoomLevel>19</ZoomLevel>
+    <Sport>NFL</Sport>
+    <TeamName>New England Patriots</TeamName>
+    <LatLong />
+    <TextLine />
+    <Head />
+    <HeadPath />
+    <HeadPathIMS />
+    <Logo1>PATRIOTS</Logo1>
+    <LogoPath1>IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\PATRIOTS_256.PNG</LogoPath1>
+    <LogoPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\PATRIOTS_256.PNG</LogoPathIMS1>
+    <Swatch1>PATRIOTS_SWATCH</Swatch1>
+    <SwatchPath1>IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\PATRIOTS.PNG</SwatchPath1>
+    <SwatchPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\PATRIOTS.PNG</SwatchPathIMS1>
+    <Logo2 />
+    <LogoPath2 />
+    <LogoPathIMS2 />
+    <Swatch2 />
+    <SwatchPath2 />
+    <SwatchPathIMS2 />
+    <PinContent>No Content</PinContent>
+    <Custom />
+    <CustomPath />
+    <CustomPathIMS />
+    <LoadingScreen />
+    <CustomScreen />
+    <CustomScreenPath />
+    <CustomScreenPathIMS />
+    <ScrubBar>true</ScrubBar>
+    <ClipData />
+    <ClipPath />
+  </PinData>
+  <PinData>
+    <PinType>One Team</PinType>
+    <PinLocation>Team Stadium/Arena</PinLocation>
+    <ZoomLevel>19</ZoomLevel>
+    <Sport>NFL</Sport>
+    <TeamName>New York Jets</TeamName>
+    <LatLong />
+    <TextLine />
+    <Head />
+    <HeadPath />
+    <HeadPathIMS />
+    <Logo1>JETS</Logo1>
+    <LogoPath1>IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\JETS_256.PNG</LogoPath1>
+    <LogoPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\JETS_256.PNG</LogoPathIMS1>
+    <Swatch1>JETS_SWATCH</Swatch1>
+    <SwatchPath1>IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\JETS.PNG</SwatchPath1>
+    <SwatchPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\JETS.PNG</SwatchPathIMS1>
+    <Logo2 />
+    <LogoPath2 />
+    <LogoPathIMS2 />
+    <Swatch2 />
+    <SwatchPath2 />
+    <SwatchPathIMS2 />
+    <PinContent>No Content</PinContent>
+    <Custom />
+    <CustomPath />
+    <CustomPathIMS />
+    <LoadingScreen />
+    <CustomScreen />
+    <CustomScreenPath />
+    <CustomScreenPathIMS />
+    <ScrubBar>true</ScrubBar>
+    <ClipData />
+    <ClipPath />
+  </PinData>
+  <PinData>
+    <PinType>One Team</PinType>
+    <PinLocation>Team Stadium/Arena</PinLocation>
+    <ZoomLevel>19</ZoomLevel>
+    <Sport>NFL</Sport>
+    <TeamName>Seattle Seahawks</TeamName>
+    <LatLong />
+    <TextLine />
+    <Head />
+    <HeadPath />
+    <HeadPathIMS />
+    <Logo1>SEAHAWKS</Logo1>
+    <LogoPath1>IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\SEAHAWKS_256.PNG</LogoPath1>
+    <LogoPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\SEAHAWKS_256.PNG</LogoPathIMS1>
+    <Swatch1>SEAHAWKS_SWATCH</Swatch1>
+    <SwatchPath1>IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\SEAHAWKS.PNG</SwatchPath1>
+    <SwatchPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\SEAHAWKS.PNG</SwatchPathIMS1>
+    <Logo2 />
+    <LogoPath2 />
+    <LogoPathIMS2 />
+    <Swatch2 />
+    <SwatchPath2 />
+    <SwatchPathIMS2 />
+    <PinContent>No Content</PinContent>
+    <Custom />
+    <CustomPath />
+    <CustomPathIMS />
+    <LoadingScreen />
+    <CustomScreen />
+    <CustomScreenPath />
+    <CustomScreenPathIMS />
+    <ScrubBar>true</ScrubBar>
+    <ClipData />
+    <ClipPath />
+  </PinData>
+  <PinData>
+    <PinType>One Team</PinType>
+    <PinLocation>Team Stadium/Arena</PinLocation>
+    <ZoomLevel>19</ZoomLevel>
+    <Sport>NFL</Sport>
+    <TeamName>San Diego Chargers</TeamName>
+    <LatLong />
+    <TextLine />
+    <Head />
+    <HeadPath />
+    <HeadPathIMS />
+    <Logo1>CHARGERS</Logo1>
+    <LogoPath1>IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\CHARGERS_256.PNG</LogoPath1>
+    <LogoPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGOS\FOOTBALL\NFL\TEAMS\CHARGERS_256.PNG</LogoPathIMS1>
+    <Swatch1>CHARGERS_SWATCH</Swatch1>
+    <SwatchPath1>IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\CHARGERS.PNG</SwatchPath1>
+    <SwatchPathIMS1>\\paparazzi\Images\IMS_IMAGES\HD\LOGO_SHEETS\FOOTBALL\NFL\TEAMS\SWATCH\CHARGERS.PNG</SwatchPathIMS1>
+    <Logo2 />
+    <LogoPath2 />
+    <LogoPathIMS2 />
+    <Swatch2 />
+    <SwatchPath2 />
+    <SwatchPathIMS2 />
+    <PinContent>No Content</PinContent>
+    <Custom />
+    <CustomPath />
+    <CustomPathIMS />
+    <LoadingScreen />
+    <CustomScreen />
+    <CustomScreenPath />
+    <CustomScreenPathIMS />
+    <ScrubBar>true</ScrubBar>
+    <ClipData />
+    <ClipPath />
+  </PinData>
+  </MapPins>
+  <Telestration>&lt;root&gt;&lt;palettetool1 type="UNDO" color="" default="N" /&gt;&lt;palettetool2 type="UNDOALL" color="" default="N" /&gt;&lt;palettetool3 type="COLOR" color="BLUE" default="N" /&gt;&lt;palettetool4 type="COLOR" color="RED" default="Y" /&gt;&lt;palettetool5 type="MAGNIFY" color="" default="N" /&gt;&lt;palettetool6 type="SPIN" color="" default="N" /&gt;&lt;palettetool7 type="DRAWARROW" color="" default="N" /&gt;&lt;palettetool8 type="SPIN" color="" default="N" /&gt;&lt;palettetool9 type="DRAWARROW" color="" default="N" /&gt;&lt;palettetool10 type="DRAW" color="" default="Y" /&gt;&lt;iconsize&gt;Small&lt;/iconsize&gt;&lt;/root&gt;</Telestration>
+</data>

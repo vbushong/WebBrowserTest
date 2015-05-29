@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- css -->
+    <link rel="stylesheet" href="http://openlayers.org/en/v3.5.0/css/ol.css" type="text/css">
+    <link rel="stylesheet" href="maps.css" type="text/css">
+    <!-- js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script> 
+    <script src="http://openlayers.org/en/v3.5.0/build/ol.js"></script> 
+    <script src="maps.js"></script>
+    <script src="stadium-locations.js"></script>
+    <title>Maps</title>
+</head>
+<body>
+    <header>
+        <p id="colorSchemeLabel">Color Scheme:</p>
+        <select id="colorSchemeSelector">
+            <option value="1">SportsCenter</option>
+            <option value="2">NFL</option>
+        </select>
+        <p id="defaultLocationLabel">Default Location:</p>
+        <select id="defaultLocationSelector">
+            <option value="1">US</option>
+            <option value="2">World</option>
+            <option value="2">Custom Location</option>
+        </select>
+        <button id="previewButton">Preview</button>
+        <button id="saveButton">Save Map</button>
+    </header>
+    <div id="map" class="map"></div>
+    <div id="pins"></div>
+</body>
+</html>

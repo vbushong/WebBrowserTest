@@ -1,0 +1,29 @@
+html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.map {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.marker {
+  width: 20px;
+  height: 20px;
+  border: 1px solid #666666;
+  border-radius: 10px;
+  background-color: #FF0000;
+  opacity: 1;
+}
