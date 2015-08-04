@@ -13,20 +13,279 @@
 </head>
 <body>
     <header>
-        <p id="colorSchemeLabel" class="label">Color Scheme:</p>
-        <select id="colorSchemeSelector" class="selector">
-            <option value="1">SportsCenter</option>
-            <option value="2">NFL</option>
-        </select>
-        <p id="defaultLocationLabel" class="label">Default Location:</p>
-        <select id="defaultLocationSelector" class="selector">
-            <option value="1">US</option>
-            <option value="2">World</option>
-            <option value="2">Custom Location</option>
-        </select>
-        <button id="previewButton">Preview</button>
-        <button id="saveButton">Save Map</button>
+        <div id="menuButton"></div>
+        <div id="addPinButton"><p>Add a pin</p></div>
+        <div id="editPinsButton"><p>Edit pins</p></div>
+        <div id="saveMapButton"><p>Save Map</p></div>
+        <div id="previewButton"><p>Preview</p></div>
     </header>
+    <div id="menu">
+        <ul id="menuBar">
+            <li class="myPinsButton selected" data-menu="myPinsMenu"><img src="images/pin.png" class="icon" /><img src="images/pin_selected.png" class="selectedIcon" /><p>My Pins</p></li>
+            <li class="layersButton" data-menu="layersMenu"><img src="images/layers.png" class="icon" /><img src="images/layers_hover.png" class="layersHover" /><img src="images/layers_selected.png" class="selectedIcon" /><p>Layers</p></li>
+            <li class="colorsButton" data-menu="colorsMenu"><img src="images/paintbrush.png" class="icon" /><img src="images/paintbrush_over.png" class="selectedIcon" /><p>Colors</p></li>
+            <li class="locationButton" data-menu="locationMenu"><img src="images/globe.png" class="icon" /><img src="images/globe_over.png" class="selectedIcon" /><p>Location</p></li>
+            <li class="settingsButton" data-menu="settingsMenu"><img src="images/gear.png" class="icon" /><img src="images/gear_over.png" class="selectedIcon" /><p>Settings</p></li>
+        </ul>
+        <div id="menuContent">
+            <div id="myPinsMenu" class="menu open">
+                <div id="editPinsMenu" class="menu open">
+                    <p class="menuTitle">My Pins</p>
+                    <div class="line"><hr /></div>
+                </div>
+                <div id="addPinMenu" class="menu">
+                    <p class="menuTitle">Add a Pin</p>
+                    <div class="line"><hr /></div>
+                    <p class="menuSubtitle">Location:</p>
+                    <select id="locationSelector">
+                        <option>(Select Location)</option>
+                        <option>Custom Location</option>
+                        <option>MLB Stadium</option>
+                        <option>MLB Training Facilities</option>
+                        <option>NBA Arena</option>
+                        <option>NFL Stadium</option>
+                        <option>NFL Training Facilities</option>
+                    </select>
+                    <select id="mlbStadiumSelector" style="display: none;">
+                        <option>(Select Team)</option>
+                        <option>Arizona Diamondbacks</option>
+                        <option>Atlanta Braves</option>
+                        <option>Baltimore Orioles</option>
+                        <option>Boston Red Sox</option>
+                        <option>Chicago Cubs</option>
+                        <option>Chicago White Sox</option>
+                        <option>Cincinnati Reds</option>
+                        <option>Cleveland Indians</option>
+                        <option>Colorado Rockies</option>
+                        <option>Detroit Tigers</option>
+                        <option>Houston Astros</option>
+                        <option>Kansas City Royals</option>
+                        <option>Los Angeles Angels of Anaheim</option>
+                        <option>Los Angeles Dodgers</option>
+                        <option>Miami Marlins</option>
+                        <option>Milwaukee Brewers</option>
+                        <option>Minnesota Twins</option>
+                        <option>New York Mets</option>
+                        <option>New York Yankees</option>
+                        <option>Oakland Athletics</option>
+                        <option>Philadelphia Phillies</option>
+                        <option>Pittsburgh Pirates</option>
+                        <option>San Diego Padres</option>
+                        <option>San Francisco Giants</option>
+                        <option>Seattle Mariners</option>
+                        <option>St. Louis Cardinals</option>
+                        <option>Tampa Bay Rays</option>
+                        <option>Texas Rangers</option>
+                        <option>Toronto Blue Jays</option>
+                        <option>Washington Nationals</option>
+                    </select>
+                    <select id="mlbFacilitiesSelector" style="display: none;">
+                        <option>(Select Team)</option>
+                        <option>Arizona Diamondbacks</option>
+                        <option>Atlanta Braves</option>
+                        <option>Baltimore Orioles</option>
+                        <option>Boston Red Sox</option>
+                        <option>Chicago Cubs</option>
+                        <option>Chicago White Sox</option>
+                        <option>Cincinnati Reds</option>
+                        <option>Cleveland Indians</option>
+                        <option>Colorado Rockies</option>
+                        <option>Detroit Tigers</option>
+                        <option>Houston Astros</option>
+                        <option>Kansas City Royals</option>
+                        <option>Los Angeles Angels of Anaheim</option>
+                        <option>Los Angeles Dodgers</option>
+                        <option>Miami Marlins</option>
+                        <option>Milwaukee Brewers</option>
+                        <option>Minnesota Twins</option>
+                        <option>New York Mets</option>
+                        <option>New York Yankees</option>
+                        <option>Oakland Athletics</option>
+                        <option>Philadelphia Phillies</option>
+                        <option>Pittsburgh Pirates</option>
+                        <option>San Diego Padres</option>
+                        <option>San Francisco Giants</option>
+                        <option>Seattle Mariners</option>
+                        <option>St. Louis Cardinals</option>
+                        <option>Tampa Bay Rays</option>
+                        <option>Texas Rangers</option>
+                        <option>Toronto Blue Jays</option>
+                        <option>Washington Nationals</option>
+                    </select>
+                    <select id="nbaArenaSelector" style="display: none;">
+                        <option>(Select Team)</option>
+                        <option>Atlanta Hawks</option>
+                        <option>Boston Celtics</option>
+                        <option>Brooklyn Nets</option>
+                        <option>Charlotte Hornets</option>
+                        <option>Chicago Bulls</option>
+                        <option>Cleveland Cavaliers</option>
+                        <option>Dallas Mavericks</option>
+                        <option>Denver Nuggets</option>
+                        <option>Detroit Pistons</option>
+                        <option>Golden State Warriors</option>
+                        <option>Houston Rockets</option>
+                        <option>Indiana Pacers</option>
+                        <option>Los Angeles Clippers</option>
+                        <option>Los Angeles Lakers</option>
+                        <option>Memphis Grizzlies</option>
+                        <option>Miami Heat</option>
+                        <option>Milwaukee Bucks</option>
+                        <option>Minnesota Timberwolves</option>
+                        <option>New Orleans Pelicans</option>
+                        <option>New York Knicks</option>
+                        <option>Oklahoma City Thunder</option>
+                        <option>Orlando Magic</option>
+                        <option>Philadelphia 76ers</option>
+                        <option>Phoenix Suns</option>
+                        <option>Portland Trail Blazers</option>
+                        <option>Sacramento Kings</option>
+                        <option>San Antonio Spurs</option>
+                        <option>Toronto Raptors</option>
+                        <option>Utah Jazz</option>
+                        <option>Washington Wizards</option>
+                    </select>
+                    <select id="nflStadiumSelector" style="display: none;">
+                        <option>(Select Team)</option>
+                        <option>Arizona Cardinals</option>
+                        <option>Atlanta Falcons</option>
+                        <option>Baltimore Ravens</option>
+                        <option>Buffalo Bills</option>
+                        <option>Carolina Panthers</option>
+                        <option>Chicago Bears</option>
+                        <option>Cincinnati Bengals</option>
+                        <option>Cleveland Browns</option>
+                        <option>Dallas Cowboys</option>
+                        <option>Denver Broncos</option>
+                        <option>Detroit Lions</option>
+                        <option>Green Bay Packers</option>
+                        <option>Houston Texans</option>
+                        <option>Indianapolis Colts</option>
+                        <option>Jacksonville Jaguars</option>
+                        <option>Kansas City Chiefs</option>
+                        <option>Miami Dolphins</option>
+                        <option>Minnesota Vikings</option>
+                        <option>New England Patriots</option>
+                        <option>New Orleans Saints</option>
+                        <option>New York Giants</option>
+                        <option>New York Jets</option>
+                        <option>Oakland Raiders</option>
+                        <option>Philadelphia Eagles</option>
+                        <option>Pittsburgh Steelers</option>
+                        <option>San Diego Chargers</option>
+                        <option>San Francisco 49ers</option>
+                        <option>Seattle Seahawks</option>
+                        <option>St. Louis Rams</option>
+                        <option>Tampa Bay Buccaneers</option>
+                        <option>Tennessee Titans</option>
+                        <option>Washington Redskins</option>
+                    </select>
+                    <select id="nflFacilitiesSelector" style="display: none;">
+                        <option>(Select Team)</option>
+                        <option>Arizona Cardinals</option>
+                        <option>Atlanta Falcons</option>
+                        <option>Baltimore Ravens</option>
+                        <option>Buffalo Bills</option>
+                        <option>Carolina Panthers</option>
+                        <option>Chicago Bears</option>
+                        <option>Cincinnati Bengals</option>
+                        <option>Cleveland Browns</option>
+                        <option>Dallas Cowboys</option>
+                        <option>Denver Broncos</option>
+                        <option>Detroit Lions</option>
+                        <option>Green Bay Packers</option>
+                        <option>Houston Texans</option>
+                        <option>Indianapolis Colts</option>
+                        <option>Jacksonville Jaguars</option>
+                        <option>Kansas City Chiefs</option>
+                        <option>Miami Dolphins</option>
+                        <option>Minnesota Vikings</option>
+                        <option>New England Patriots</option>
+                        <option>New Orleans Saints</option>
+                        <option>New York Giants</option>
+                        <option>New York Jets</option>
+                        <option>Oakland Raiders</option>
+                        <option>Philadelphia Eagles</option>
+                        <option>Pittsburgh Steelers</option>
+                        <option>San Diego Chargers</option>
+                        <option>San Francisco 49ers</option>
+                        <option>Seattle Seahawks</option>
+                        <option>St. Louis Rams</option>
+                        <option>Tampa Bay Buccaneers</option>
+                        <option>Tennessee Titans</option>
+                        <option>Washington Redskins</option>
+                    </select>
+                    <p class="menuSubtitle">Pin Type:</p>
+                    <select id="pinTypeSelector">
+                        <option>Default</option>
+                        <option>One Team</option>
+                        <option>Two Teams</option>
+                        <option>Headshot</option>
+                        <option>Custom Image</option>
+                        <option>No Pin</option>
+                    </select>
+                    <p class="menuSubtitle">Pin Content:</p>
+                    <select id="pinContentSelector">
+                        <option>No Content</option>
+                        <option>Custom Image</option>
+                        <option>Video Clip</option>
+                        <option>Live Video</option>
+                    </select>
+                    <p class="menuSubtitle">Zoom Level:</p>
+                    <select id="zoomLevelSelector">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option selected="selected">17</option>
+                    </select>
+                    <p class="menuSubtitle">Animation Speed:</p>
+                    <input id="animationTimeInput" type="number" min="0" max="10" step="0.1" value="0.3" /><p class="inputLabel">Seconds</p>
+                    <div class="line"><hr /></div>
+                </div>
+            </div>
+            <div id="layersMenu" class="menu">
+                <p class="menuTitle">Layers</p>
+                <div class="line"><hr /></div>
+            </div>
+            <div id="colorsMenu" class="menu">
+                <p class="menuTitle">Colors</p>
+                <div class="line"><hr /></div>
+                <p class="menuSubtitle">Color Scheme:</p>
+                <select name="colorSelector">
+                    <option>SportsCenter</option>
+                </select> 
+            </div>
+            <div id="locationMenu" class="menu">
+                <p class="menuTitle">Location</p>
+                <div class="line"><hr /></div>
+                <p class="menuSubtitle">Default View:</p>
+                <select id="defaultLocationSelector">
+                    <option>US</option>
+                    <option>World</option>
+                    <option>Custom Location</option>
+                </select>
+            </div>
+            <div id="settingsMenu" class="menu">
+                <p class="menuTitle">Settings</p>
+                <div class="line"><hr /></div>
+                <input type="checkbox" class="checkbox" checked="checked"/><p class="checkboxText">Show location buttons</p>
+                <input type="checkbox" class="checkbox" checked="checked" /><p class="checkboxText">Show telestration palettes</p>
+            </div>
+        </div>
+    </div>
     <div id="map" class="map"></div>
     <div id="pins"></div>
 </body>

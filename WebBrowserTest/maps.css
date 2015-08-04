@@ -4,6 +4,7 @@ html {
     width: 100%;
     height: 100%;
     color: #FFF;
+    font-family: 'Segoe UI Light';
 }
 
 body {
@@ -13,25 +14,246 @@ body {
     height: 100%;
 }
 
+/* Header */
 header {
     background: #272727;
     width: 100%;
+    height: 50px;
+    font-size: 18px;
 }
 
-.label {
+header div:hover {
+    cursor: pointer;
+    color: #929292;
+}
+
+#menuButton {
+    height: 50px;
+    width: 50px;
+    background-color: #cc0000;
+    background-image: url(images/menuButton.png);
     float: left;
-    margin-left: 10px;
 }
 
-.selector {
+.menuButtonOpen {
+    background-image: url(images/closeButton.png) !important;
+}
+
+#addPinButton {
+    width: 122px;
+    height: 50px;
     float: left;
+    background: url(images/addPinButton.png) no-repeat;
 }
 
+#addPinButton:hover {
+    background: url(images/addPinButton_over.png) no-repeat;
+}
+
+#addPinButton p {
+    margin: 0px;
+    padding-left: 45px;
+    padding-top: 13px;
+}
+
+#editPinsButton {
+    width: 122px;
+    height: 50px;
+    float: left;
+    background: url(images/editPinsButton.png) no-repeat;
+    background-position-x: 10px;
+}
+
+#editPinsButton:hover {
+    background: url(images/editPinsButton_over.png) no-repeat;
+    background-position-x: 10px;
+}
+
+#editPinsButton p {
+    margin: 0px;
+    padding-left: 38px;
+    padding-top: 13px;
+}
+
+#previewButton {
+    float: right;
+}
+
+#previewButton p {
+    margin: 0px;
+    padding-top: 13px;
+    padding-right: 15px;
+}
+
+#saveMapButton {
+    float: right;
+    background: linear-gradient(#0da326, #0a7e1d);
+    width: 87px;
+    height: 32px;
+    margin-right: 10px;
+    margin-top: 8px;
+    border-radius: 3px;
+}
+
+#saveMapButton:hover {
+    color: white;
+}
+
+#saveMapButton p {
+    margin: 0px;
+    padding-left: 6px;
+    padding-top: 3px;
+}
+
+/* Menu */
+#menu {
+    display: none;
+}
+
+#menuBar {
+    width: 50px;
+    height: 501px;
+    background: #272727;
+    position: fixed;
+    top: 50px;
+    left: 0;
+    z-index: 1;
+    margin: 0px;
+    padding: 0px;
+}
+
+#menuBar li {
+    width: 50px;
+    height: 50px;
+    border-bottom: 1px solid #3c3c3c;
+    text-align: center;
+    color: #929292;
+    list-style: none;
+    position: relative;
+}
+
+#menuBar li:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#menuBar li p {
+    margin: 0px;
+    font-family: "Segoe UI";
+    font-size: 12px;
+    padding-top: 30px;
+}
+
+#menuBar img {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.selected {
+    background-color: #cc0000;
+    color: white !important;
+}
+
+/* Hide the gray icon and show the white one */
+#menuBar li:hover .icon, .selected .icon { visibility: hidden; } 
+.selectedIcon { visibility: hidden; }
+#menuBar li:hover .selectedIcon { visibility: visible; }
+/* When selected, the white icon should always be visible */
+.selected .selectedIcon { visibility: visible !important; }
+/* The layers icon is different */
+.layersHover { visibility: hidden; }
+#menuBar .layersButton:hover .layersHover { visibility: visible; }
+#menuBar .layersButton:hover .selectedIcon { visibility: hidden; }
+
+#layersButton p, #colorsButton p {
+    font-size: 13px;
+}
+
+.menu {
+    width: 175px;
+    height: 501px;
+    background-color: white;
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 1;
+    display: none;
+    color: black;
+}
+
+.menuTitle {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    margin: 10px 0px 0px 10px;
+}
+
+.menuSubtitle {
+    font-size: 16px;
+    font-family: 'Segoe UI';
+    margin: 10px 0px 0px 10px;
+}
+
+.line {
+    background: #c8c8c8;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 8px;
+    width: 90%;
+    height: 1px;
+}
+.line hr { display: none; }
+
+.open { display: block !important; }
+
+select {
+    margin: 5px 0px 0px 12px;
+    width: 150px;
+}
+
+.comboboxText { 
+    margin: 7px 0px 0px 12px;
+    width: 130px;
+    float: left;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.checkbox { 
+    margin: 12px 4px 0px 12px;
+    float: left;
+    clear: both;
+}
+.checkboxText { 
+    margin: 7px 0px 0px 0px;
+    width: 130px;
+    float: left;
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+/* Add Pin Menu */
+
+#addPinMenu { display: none; }
+
+#animationTimeInput {
+    margin: 5px 10px 10px 12px;
+    text-align: right;
+}
+
+.inputLabel {
+    font-family: 'Segoe UI';
+    margin: 6px 25px 0px 0px;
+    float: right;
+    font-size: 14px;
+}
+
+/* Map */
 .map {
     margin: 0;
     padding: 0;
-    width: 100%;
-    height: 100%;
+    width: 488px;
+    height: 501px;
 }
 
 .marker {
